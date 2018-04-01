@@ -1,0 +1,435 @@
+[
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9940",
+        "datestamp": "2017-10-26T16:03:48Z",
+        "setSpec": "lagcc_studenthandbook",
+        "dc": {
+            "title": [
+                "1971-1972 Handbook"
+            ],
+            "subject": [
+                "Handbook",
+                "Handbook--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1971"
+            ],
+            "type": [
+                "Text",
+                "handbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9940"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9993",
+        "datestamp": "2017-10-26T16:03:49Z",
+        "setSpec": "lagcc_studenthandbook",
+        "dc": {
+            "title": [
+                "1973 Handbook"
+            ],
+            "subject": [
+                "Student Handbook",
+                "Student Handbook--Long Island City, N.Y.--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1973"
+            ],
+            "type": [
+                "Text",
+                "handbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9993"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y.",
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10024",
+        "datestamp": "2017-10-26T16:03:49Z",
+        "setSpec": "lagcc_studenthandbook",
+        "dc": {
+            "title": [
+                "1977-78 Handbook"
+            ],
+            "subject": [
+                "Student Handbook",
+                "Student Handbook--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1977"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10024"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10064",
+        "datestamp": "2017-10-26T16:03:49Z",
+        "setSpec": "lagcc_studenthandbook",
+        "dc": {
+            "title": [
+                "1978-1979 Handbook"
+            ],
+            "subject": [
+                "Student Handbook",
+                "Student Handbook--Long Island City, N.Y.--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1978"
+            ],
+            "type": [
+                "Text",
+                "handbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10064"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y.",
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10106",
+        "datestamp": "2017-10-26T16:03:49Z",
+        "setSpec": "lagcc_studenthandbook",
+        "dc": {
+            "title": [
+                "1979-1980 Handbook"
+            ],
+            "subject": [
+                "Student Handbooks",
+                "Student Handbooks--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1979"
+            ],
+            "type": [
+                "Text",
+                "handbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10106"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10149",
+        "datestamp": "2017-10-26T16:03:49Z",
+        "setSpec": "lagcc_studenthandbook",
+        "dc": {
+            "title": [
+                "1980-81 Handbook"
+            ],
+            "subject": [
+                "Student Handbook",
+                "Student Handbook--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1980"
+            ],
+            "type": [
+                "Text",
+                "handbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10149"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10184",
+        "datestamp": "2017-10-26T16:03:49Z",
+        "setSpec": "lagcc_studenthandbook",
+        "dc": {
+            "title": [
+                "1981-82 Handbook"
+            ],
+            "subject": [
+                "Student Handbook",
+                "Student Handbook--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1981"
+            ],
+            "type": [
+                "Text",
+                "handbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10184"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10220",
+        "datestamp": "2017-10-26T16:03:50Z",
+        "setSpec": "lagcc_studenthandbook",
+        "dc": {
+            "title": [
+                "1982-83 Handbook"
+            ],
+            "subject": [
+                "Student Handbook",
+                "Student Handbook--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1982"
+            ],
+            "type": [
+                "Text",
+                "handbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10220"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10257",
+        "datestamp": "2017-10-26T16:03:50Z",
+        "setSpec": "lagcc_studenthandbook",
+        "dc": {
+            "title": [
+                "1983-84 Handbook"
+            ],
+            "subject": [
+                "Student Handbook",
+                "Student Handbook--Long Island City, N.Y.--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1983"
+            ],
+            "type": [
+                "Text",
+                "handbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10257"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y.",
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10294",
+        "datestamp": "2017-10-26T16:03:50Z",
+        "setSpec": "lagcc_studenthandbook",
+        "dc": {
+            "title": [
+                "1984-85 Handbook"
+            ],
+            "subject": [
+                "Student Handbook",
+                "Student Handbook--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1984"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10294"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10297",
+        "datestamp": "2017-10-26T16:03:50Z",
+        "setSpec": "lagcc_studenthandbook",
+        "dc": {
+            "title": [
+                "1988-1990 Handbook"
+            ],
+            "subject": [
+                "Student Handbook",
+                "Student Handbook--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1985"
+            ],
+            "type": [
+                "Text",
+                "handbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10297"
+            ],
+            "language": [
+                null
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_11365",
+        "datestamp": "2017-10-26T16:04:11Z",
+        "setSpec": "lagcc_studenthandbook",
+        "dc": {
+            "title": [
+                "1974-75 Handbook"
+            ],
+            "subject": [
+                "Student Handbook",
+                "Student Handbook--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1974"
+            ],
+            "type": [
+                "Text",
+                "text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:11365"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    }
+]

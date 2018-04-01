@@ -1,0 +1,84 @@
+[
+    {
+        "identifier": "oai:drupal-site.org:lagcc_956",
+        "datestamp": "2017-10-26T16:03:34Z",
+        "setSpec": "lagcc_namingceremony",
+        "dc": {
+            "title": [
+                "Remarks by Dr. Frederick Burkhardt"
+            ],
+            "subject": [
+                "LaGuardia Community College--Fiorello H. LaGuardia",
+                "LaGuardia Community College--Fiorello H. LaGuardia--Long Island City, N.Y."
+            ],
+            "description": [
+                "A transcript of remarks made by Dr. Frederick Burkhardt at the Naming Ceremony for LaGuardia Community College, when Communiry College Number Nine was offically named after Fiorello H. LaGuardia"
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "contributor": [
+                "Federick Burkhardt (Creator)"
+            ],
+            "date": [
+                "1970-12-05"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "4 pages"
+            ],
+            "identifier": [
+                "lagcc:956"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_957",
+        "datestamp": "2017-10-26T16:03:34Z",
+        "setSpec": "lagcc_namingceremony",
+        "dc": {
+            "title": [
+                "\"What's Behind a Name\""
+            ],
+            "subject": [
+                "LaGuardia Community College--Fiorello H. LaGuardia",
+                "LaGuardia Community College--Fiorello H. LaGuardia--Long Island City, N.Y."
+            ],
+            "description": [
+                "A summary of the remarks made by Dr. Frederick Burkhardt at the College's Naming Ceremony"
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1970"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 page"
+            ],
+            "identifier": [
+                "lagcc:957"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    }
+]

@@ -1,0 +1,319 @@
+[
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10567",
+        "datestamp": "2017-10-26T16:03:54Z",
+        "setSpec": "lagcc_spectrum",
+        "dc": {
+            "title": [
+                "Spectrum 1984 Fall"
+            ],
+            "subject": [
+                "LaGuardia Community College--Veterans--Education--Adult and Continuing Education",
+                "LaGuardia Community College--Veterans--Education--Adult and Continuing Education--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1984"
+            ],
+            "type": [
+                "Text",
+                "text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10567"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10601",
+        "datestamp": "2017-10-26T16:03:54Z",
+        "setSpec": "lagcc_spectrum",
+        "dc": {
+            "title": [
+                "Spectrum 1985 Spring Special Edition"
+            ],
+            "subject": [
+                "LaGuardia Community College--Adult and Continuing Education--Veterans--Education",
+                "LaGuardia Community College--Adult and Continuing Education--Long Island City, N.Y.--Veterans--Education"
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1985"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10601"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10642",
+        "datestamp": "2017-10-26T16:03:55Z",
+        "setSpec": "lagcc_spectrum",
+        "dc": {
+            "title": [
+                "Spectrum 1987 Fall"
+            ],
+            "subject": [
+                "LaGuardia Community College--Adult and Continuing Education--Veterans--Education",
+                "LaGuardia Community College--Adult and Continuing Education--Veterans--Education--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1987"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10642"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10670",
+        "datestamp": "2017-10-26T16:03:55Z",
+        "setSpec": "lagcc_spectrum",
+        "dc": {
+            "title": [
+                "Spectrum 1987 Spring"
+            ],
+            "subject": [
+                "LaGuardia Community College--Adult and Continuing Education--Veterans--Education",
+                "LaGuardia Community College--Adult and Continuing Education--Long Island City, N.Y.--Veterans--Education"
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1987"
+            ],
+            "type": [
+                "Text",
+                "text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10670"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10689",
+        "datestamp": "2017-10-26T16:03:55Z",
+        "setSpec": "lagcc_spectrum",
+        "dc": {
+            "title": [
+                "Spectrum 1988 Spring"
+            ],
+            "subject": [
+                "LaGuardia Community College--Adult and Continuing Education--Veterans--Education",
+                "LaGuardia Community College--Adult and Continuing Education--Long Island City N.Y.--Veterans--Education"
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1988"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10689"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10730",
+        "datestamp": "2017-10-26T16:03:55Z",
+        "setSpec": "lagcc_spectrum",
+        "dc": {
+            "title": [
+                "Spectrum, 1988 Summer"
+            ],
+            "subject": [
+                "LaGuardia Community College--Adult and Continuing Education--Veterans--Education",
+                "LaGuardia Community College--Adult and Continuing Education--Veterans--Education--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1988"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10730"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10747",
+        "datestamp": "2017-10-26T16:03:55Z",
+        "setSpec": "lagcc_spectrum",
+        "dc": {
+            "title": [
+                "Spectrum 1989 Fall"
+            ],
+            "subject": [
+                "LaGuardia Community College--Adult and Continuing Education--Veterans--Education",
+                "LaGuardia Community College--Adult and Continuing Education--Veterans--Education--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1989"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10747"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10776",
+        "datestamp": "2017-10-26T16:03:55Z",
+        "setSpec": "lagcc_spectrum",
+        "dc": {
+            "title": [
+                "Spectrum 1989 Winter-Spring"
+            ],
+            "subject": [
+                "LaGuardia Community College--Adult and Continuing Education--Veterans--Education",
+                "LaGuardia Community College--Adult and Continuing Education--Veterans--Education--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1989"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10776"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10823",
+        "datestamp": "2017-10-26T16:03:55Z",
+        "setSpec": "lagcc_spectrum",
+        "dc": {
+            "title": [
+                "Spectrum 1991 Summer"
+            ],
+            "subject": [
+                "LaGuardia Community College--Adult and Continuing Education--Veterans--Education",
+                "LaGuardia Community College--Adult and Continuing Education--Veterans--Education--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1991"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:10823"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    }
+]

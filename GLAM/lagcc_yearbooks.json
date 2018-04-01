@@ -1,0 +1,362 @@
+[
+    {
+        "identifier": "oai:drupal-site.org:lagcc_8684",
+        "datestamp": "2017-10-26T16:03:45Z",
+        "setSpec": "lagcc_yearbooks",
+        "dc": {
+            "title": [
+                "1973 Yearbook"
+            ],
+            "subject": [
+                "LaGuardia Community College",
+                "LaGuardia Community College--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1973"
+            ],
+            "type": [
+                "Text",
+                "yearbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:8684"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_8850",
+        "datestamp": "2017-10-26T16:03:45Z",
+        "setSpec": "lagcc_yearbooks",
+        "dc": {
+            "title": [
+                "1974 Yearbook"
+            ],
+            "subject": [
+                "LaGuardia Community College",
+                "LaGuardia Community College--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1974"
+            ],
+            "type": [
+                "Text",
+                "yearbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:8850"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_8991",
+        "datestamp": "2017-10-26T16:03:45Z",
+        "setSpec": "lagcc_yearbooks",
+        "dc": {
+            "title": [
+                "1983 - Innervisions"
+            ],
+            "subject": [
+                "LaGuardia Community College",
+                "LaGuardia Community College--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1983"
+            ],
+            "type": [
+                "Text",
+                "yearbooks"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:8991"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9120",
+        "datestamp": "2017-10-26T16:03:45Z",
+        "setSpec": "lagcc_yearbooks",
+        "dc": {
+            "title": [
+                "1984 Innervisions"
+            ],
+            "subject": [
+                "LaGuardia Community College",
+                "LaGuardia Community College--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1984"
+            ],
+            "type": [
+                "Text",
+                "yearbooks"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9120"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9252",
+        "datestamp": "2017-10-26T16:03:45Z",
+        "setSpec": "lagcc_yearbooks",
+        "dc": {
+            "title": [
+                "1985-1986"
+            ],
+            "subject": [
+                "LaGuardia Community College",
+                "LaGuardia Community College--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1986"
+            ],
+            "type": [
+                "Text",
+                "yearbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9252"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9419",
+        "datestamp": "2017-10-26T16:03:45Z",
+        "setSpec": "lagcc_yearbooks",
+        "dc": {
+            "title": [
+                "1987 Yearbook"
+            ],
+            "subject": [
+                "LaGuardia Community College",
+                "LaGuardia Community College--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1987"
+            ],
+            "type": [
+                "Text",
+                "yearbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9419"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9530",
+        "datestamp": "2017-10-26T16:03:45Z",
+        "setSpec": "lagcc_yearbooks",
+        "dc": {
+            "title": [
+                "1988 Yearbook"
+            ],
+            "subject": [
+                "LaGuardia Community College",
+                "LaGuardia Community College--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1988"
+            ],
+            "type": [
+                "Text",
+                "yearbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9530"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9642",
+        "datestamp": "2017-10-26T16:03:46Z",
+        "setSpec": "lagcc_yearbooks",
+        "dc": {
+            "title": [
+                "1996-1997 Yearbook"
+            ],
+            "subject": [
+                "LaGuardia Community College",
+                "LaGuardia Community College--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1997"
+            ],
+            "type": [
+                "Text",
+                "yearbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9642"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9716",
+        "datestamp": "2017-10-26T16:03:46Z",
+        "setSpec": "lagcc_yearbooks",
+        "dc": {
+            "title": [
+                "2000 Yearbook"
+            ],
+            "subject": [
+                "LaGuardia Community College",
+                "LaGuardia Community College--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "2000"
+            ],
+            "type": [
+                "Text",
+                "yearbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9716"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9712",
+        "datestamp": "2017-10-26T16:03:46Z",
+        "setSpec": "lagcc_yearbooks",
+        "dc": {
+            "title": [
+                "1998 Yearbook"
+            ],
+            "subject": [
+                "LaGuardia Community College",
+                "LaGuardia Community College--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1998"
+            ],
+            "type": [
+                "Text",
+                "yearbook"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9712"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    }
+]

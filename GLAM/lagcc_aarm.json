@@ -1,0 +1,212 @@
+[
+    {
+        "identifier": "oai:drupal-site.org:lagcc_43",
+        "datestamp": "2017-10-26T16:03:21Z",
+        "setSpec": "lagcc_aarm",
+        "dc": {
+            "title": [
+                "Bicentennial African American Literature Reading Marathon"
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "type": [
+                "StillImage",
+                "photograph"
+            ],
+            "date": [
+                "1972-02-00"
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "description": [
+                "Readers at the Bicentennial celebration of the African American Literature Reading Marathon"
+            ],
+            "identifier": [
+                "local:\u00c2\u00a003.000.493"
+            ],
+            "format": [
+                "1 photograph"
+            ],
+            "subject": [
+                "African American Literature Reading Marathon--Events",
+                "African American Literature Reading Marathon--Events--Long Island City, N.Y."
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_52",
+        "datestamp": "2017-10-26T16:03:22Z",
+        "setSpec": "lagcc_aarm",
+        "dc": {
+            "title": [
+                "Professor Umoja Kwanzurn at the African American Literature Reading Marathon"
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "type": [
+                "StillImage",
+                "photograph"
+            ],
+            "date": [
+                "1976-02"
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "description": [
+                "rofessor Umoja Kwasurn addressing participants at the Bicentenial African American Literature Reading Marathon"
+            ],
+            "identifier": [
+                "local:\u00c2\u00a003.000.523"
+            ],
+            "format": [
+                "1 photograph"
+            ],
+            "subject": [
+                "African American Literature Reading Marathon--Kwansurn, Umoja",
+                "African American Literature Reading Marathon--Kwansurn, Umoja--Long Island City, N.Y."
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_53",
+        "datestamp": "2017-10-26T16:03:23Z",
+        "setSpec": "lagcc_aarm",
+        "dc": {
+            "title": [
+                "Charles Hill"
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "type": [
+                "StillImage",
+                "photograph"
+            ],
+            "date": [
+                "1976-02"
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "description": [
+                "Charles Hill, president of the Afro-American Culture Club, at the African American Literature Reading Marathon"
+            ],
+            "identifier": [
+                "local:\u00c2\u00a003.000.525"
+            ],
+            "format": [
+                "1 photograph"
+            ],
+            "subject": [
+                "Afro-American Culture Club--Charles, Hill--African American Literature Reading Marathon",
+                "Afro-American Culture Club--Charles, Hill--African American Literature Reading Marathon--Long Island City, N.Y."
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_54",
+        "datestamp": "2017-10-26T16:03:23Z",
+        "setSpec": "lagcc_aarm",
+        "dc": {
+            "title": [
+                "Professor Umoja Kwansurn at the African American Literature Reading Marathon"
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "type": [
+                "StillImage",
+                "photograph"
+            ],
+            "date": [
+                "1976-02"
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "description": [
+                "Professor Umoja Kwansurn addressing participants at the African American Literature Reading Marathon"
+            ],
+            "identifier": [
+                "local:\u00c2\u00a003.000.530"
+            ],
+            "format": [
+                "1 photograph"
+            ],
+            "subject": [
+                "African American Literature Reading Marathon--Kwansurn, Umoja",
+                "African American Literature Reading Marathon--Kwansurn, Umoja--Long Island City, N.Y."
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_154",
+        "datestamp": "2017-10-26T16:03:27Z",
+        "setSpec": "lagcc_aarm",
+        "dc": {
+            "title": [
+                "April, 1976"
+            ],
+            "date": [
+                "1976-Apr-19"
+            ],
+            "type": [
+                "Text",
+                "newspaper"
+            ],
+            "identifier": [
+                "lagcc:154"
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_10520",
+        "datestamp": "2017-10-26T16:03:53Z",
+        "setSpec": "lagcc_aarm",
+        "dc": {
+            "title": [
+                "African American Literature Reading Marathon"
+            ],
+            "subject": [
+                "African American Literature Reading Marathon--Kwaguva, Umoja--Events",
+                "African American Literature Reading Marathon--Kwaguva, Umoja--Events--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1976-02-09"
+            ],
+            "type": [
+                "StillImage",
+                "photograph"
+            ],
+            "format": [
+                "1 photograph"
+            ],
+            "identifier": [
+                "lagcc:10520",
+                "local:\u00c2\u00a001.00.309"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    }
+]

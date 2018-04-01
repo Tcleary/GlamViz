@@ -1,0 +1,443 @@
+[
+    {
+        "identifier": "oai:drupal-site.org:lagcc_551",
+        "datestamp": "2017-10-26T16:03:31Z",
+        "setSpec": "lagcc_bridge",
+        "dc": {
+            "title": [
+                "November, 1982"
+            ],
+            "subject": [
+                "College student newspapers and publications",
+                null
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1982-11"
+            ],
+            "type": [
+                "Text",
+                "newspaper"
+            ],
+            "identifier": [
+                "lagcc:551"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_620",
+        "datestamp": "2017-10-26T16:03:31Z",
+        "setSpec": "lagcc_bridge",
+        "dc": {
+            "title": [
+                "June, 1984"
+            ],
+            "subject": [
+                "College student newspapers and publications",
+                "Students"
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1984-06"
+            ],
+            "type": [
+                "Text",
+                "newspaper"
+            ],
+            "identifier": [
+                "lagcc:620"
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_664",
+        "datestamp": "2017-10-26T16:03:32Z",
+        "setSpec": "lagcc_bridge",
+        "dc": {
+            "title": [
+                "Fall, 1986"
+            ],
+            "subject": [
+                "College student newspapers and publications",
+                null
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1986-09"
+            ],
+            "type": [
+                "Text",
+                "newspaper"
+            ],
+            "identifier": [
+                "lagcc:664"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_684",
+        "datestamp": "2017-10-26T16:03:32Z",
+        "setSpec": "lagcc_bridge",
+        "dc": {
+            "title": [
+                "Spring, 1986"
+            ],
+            "subject": [
+                "College student newspapers and publications",
+                null
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1986-05"
+            ],
+            "type": [
+                "Text",
+                "newspaper"
+            ],
+            "identifier": [
+                "lagcc:684"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_714",
+        "datestamp": "2017-10-26T16:03:32Z",
+        "setSpec": "lagcc_bridge",
+        "dc": {
+            "title": [
+                "Fall, 1987"
+            ],
+            "subject": [
+                "College student newspapers and publications",
+                null
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1987-09"
+            ],
+            "type": [
+                "Text",
+                "newspaper"
+            ],
+            "identifier": [
+                "lagcc:714"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_753",
+        "datestamp": "2017-10-26T16:03:32Z",
+        "setSpec": "lagcc_bridge",
+        "dc": {
+            "title": [
+                "Spring, 1988"
+            ],
+            "subject": [
+                "College student newspapers and publications",
+                null
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1988-05"
+            ],
+            "type": [
+                "Text",
+                "newspaper"
+            ],
+            "identifier": [
+                "lagcc:753"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_791",
+        "datestamp": "2017-10-26T16:03:32Z",
+        "setSpec": "lagcc_bridge",
+        "dc": {
+            "title": [
+                "May, 1989"
+            ],
+            "subject": [
+                "College student newspapers and publications",
+                null
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1989-05"
+            ],
+            "type": [
+                "Text",
+                "newspaper"
+            ],
+            "identifier": [
+                "lagcc:791"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_810",
+        "datestamp": "2017-10-26T16:03:33Z",
+        "setSpec": "lagcc_bridge",
+        "dc": {
+            "title": [
+                "Fall, 1990"
+            ],
+            "subject": [
+                "College student newspapers and publications",
+                null
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1990-09"
+            ],
+            "type": [
+                "Text",
+                "newspaper"
+            ],
+            "identifier": [
+                "lagcc:810"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_829",
+        "datestamp": "2017-10-26T16:03:33Z",
+        "setSpec": "lagcc_bridge",
+        "dc": {
+            "title": [
+                "February, 1990"
+            ],
+            "subject": [
+                "College student newspapers and publications",
+                null
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1990-02"
+            ],
+            "type": [
+                "Text",
+                "newspaper"
+            ],
+            "identifier": [
+                "lagcc:829"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_844",
+        "datestamp": "2017-10-26T16:03:33Z",
+        "setSpec": "lagcc_bridge",
+        "dc": {
+            "title": [
+                "March, 1990"
+            ],
+            "subject": [
+                "College student newspapers and publications",
+                null
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1990-03"
+            ],
+            "type": [
+                "Text",
+                "newspaper"
+            ],
+            "identifier": [
+                "lagcc:844"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_855",
+        "datestamp": "2017-10-26T16:03:33Z",
+        "setSpec": "lagcc_bridge",
+        "dc": {
+            "title": [
+                "Spring, 1990"
+            ],
+            "subject": [
+                "College student newspapers and publications",
+                null
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1990-05"
+            ],
+            "type": [
+                "Text",
+                "newspaper"
+            ],
+            "identifier": [
+                "lagcc:855"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_870",
+        "datestamp": "2017-10-26T16:03:33Z",
+        "setSpec": "lagcc_bridge",
+        "dc": {
+            "title": [
+                "Spring, 1991"
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1991-05"
+            ],
+            "type": [
+                "Text"
+            ],
+            "identifier": [
+                "lagcc:870"
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_891",
+        "datestamp": "2017-10-26T16:03:33Z",
+        "setSpec": "lagcc_bridge",
+        "dc": {
+            "title": [
+                "Winter, 1991"
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1991-01"
+            ],
+            "type": [
+                "Text",
+                "newspaper"
+            ],
+            "identifier": [
+                "lagcc:891"
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_907",
+        "datestamp": "2017-10-26T16:03:34Z",
+        "setSpec": "lagcc_bridge",
+        "dc": {
+            "title": [
+                "Fall, 1991"
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1991-12"
+            ],
+            "type": [
+                "Text",
+                "newspaper"
+            ],
+            "identifier": [
+                "lagcc:907"
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_918",
+        "datestamp": "2017-10-26T16:03:34Z",
+        "setSpec": "lagcc_bridge",
+        "dc": {
+            "title": [
+                "Spring, 1992"
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1992-05"
+            ],
+            "type": [
+                "Text",
+                "newspaper"
+            ],
+            "identifier": [
+                "lagcc:918"
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_933",
+        "datestamp": "2017-10-26T16:03:34Z",
+        "setSpec": "lagcc_bridge",
+        "dc": {
+            "title": [
+                "May, 1993"
+            ],
+            "publisher": [
+                "LaGuardia Community College"
+            ],
+            "date": [
+                "1993-05-17"
+            ],
+            "type": [
+                "Text",
+                "newspaper"
+            ],
+            "identifier": [
+                "lagcc:933"
+            ]
+        }
+    }
+]

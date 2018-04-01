@@ -1,0 +1,384 @@
+[
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9879",
+        "datestamp": "2017-10-26T16:03:46Z",
+        "setSpec": "lagcc_ct",
+        "dc": {
+            "title": [
+                "CT: Fall 1983"
+            ],
+            "subject": [
+                "Cooperative Education--LaGuardia Community College",
+                "Cooperative Education--LaGuardia Community College--Long Island City N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1983"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9879"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9884",
+        "datestamp": "2017-10-26T16:03:46Z",
+        "setSpec": "lagcc_ct",
+        "dc": {
+            "title": [
+                "CT Spring 1983"
+            ],
+            "subject": [
+                "Cooperative Education",
+                "Cooperative Education--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1983"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9884"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9889",
+        "datestamp": "2017-10-26T16:03:47Z",
+        "setSpec": "lagcc_ct",
+        "dc": {
+            "title": [
+                "CT: Spring 1984"
+            ],
+            "subject": [
+                "Cooperative Education",
+                "Cooperative Education--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1984"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9889"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9894",
+        "datestamp": "2017-10-26T16:03:47Z",
+        "setSpec": "lagcc_ct",
+        "dc": {
+            "title": [
+                "CT: Summer 1986"
+            ],
+            "subject": [
+                "Cooperative Education",
+                "Cooperative Education--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1986"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9894"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9899",
+        "datestamp": "2017-10-26T16:03:47Z",
+        "setSpec": "lagcc_ct",
+        "dc": {
+            "title": [
+                "CT: Winter 1987"
+            ],
+            "subject": [
+                "Cooperative Education",
+                "Cooperative Education--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1987"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9899"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9904",
+        "datestamp": "2017-10-26T16:03:47Z",
+        "setSpec": "lagcc_ct",
+        "dc": {
+            "title": [
+                "CT: Summer 1987"
+            ],
+            "subject": [
+                "Cooperative Education",
+                "Cooperative Education--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1987"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9904"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9909",
+        "datestamp": "2017-10-26T16:03:48Z",
+        "setSpec": "lagcc_ct",
+        "dc": {
+            "title": [
+                "CT: Winter 1988"
+            ],
+            "subject": [
+                "Cooperative Education",
+                "Cooperative Education--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1988"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9909"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9914",
+        "datestamp": "2017-10-26T16:03:48Z",
+        "setSpec": "lagcc_ct",
+        "dc": {
+            "title": [
+                "CT: Spring 1988"
+            ],
+            "subject": [
+                "Cooperative Education",
+                "Cooperative Education--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1988"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9914"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9919",
+        "datestamp": "2017-10-26T16:03:48Z",
+        "setSpec": "lagcc_ct",
+        "dc": {
+            "title": [
+                "CT: Summer-Fall 1996"
+            ],
+            "subject": [
+                "Cooperative Education",
+                "Cooperative Education--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "1996"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9919"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9929",
+        "datestamp": "2017-10-26T16:03:48Z",
+        "setSpec": "lagcc_ct",
+        "dc": {
+            "title": [
+                "CT: March 2000"
+            ],
+            "subject": [
+                "Cooperative Education",
+                "Cooperative Education--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "date": [
+                "2000"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9929"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    },
+    {
+        "identifier": "oai:drupal-site.org:lagcc_9934",
+        "datestamp": "2017-10-26T16:03:48Z",
+        "setSpec": "lagcc_ct",
+        "dc": {
+            "title": [
+                "CT: n.d."
+            ],
+            "subject": [
+                "Cooperative Education",
+                "Cooperative Education--Long Island City, N.Y."
+            ],
+            "contributor": [
+                "LaGuardia Community College (Creator)"
+            ],
+            "type": [
+                "Text"
+            ],
+            "format": [
+                "1 volume"
+            ],
+            "identifier": [
+                "lagcc:9934"
+            ],
+            "language": [
+                "eng"
+            ],
+            "coverage": [
+                "Long Island City, N.Y."
+            ]
+        }
+    }
+]
