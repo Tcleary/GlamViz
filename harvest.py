@@ -184,6 +184,6 @@ def subject_counts(setSpec):
     }
 
 
-
-write_all_records()
+if __name__ == '__main__':
+    write_all_records()
 

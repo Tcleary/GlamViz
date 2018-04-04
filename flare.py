@@ -60,4 +60,5 @@ def flare(filename):
     return flare
 
 
-flare('all_sets.json')
+if __name__ == '__main__':
+    flare('all_sets.json')
