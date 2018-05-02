@@ -1,6 +1,6 @@
 import json
 
-from IO import write_json
+from glam_io import write_json
 
 
 def limit_size(data, key, lowest_value ):
@@ -18,7 +18,7 @@ def times (value, number):
     return value
 
 
-def flare(filename, size_limit):
+def flare(filename, subject_count_min, subject_count_max):
     try:
         with open(filename) as json_data:
             d = json.load(json_data)
@@ -42,12 +42,12 @@ def flare(filename, size_limit):
     flare_children = []
 
     for num, spec in enumerate(flare_data.keys()):
-        if num < 2000:
+        if True:  # num < 10000:
             subjects = flare_data.get(spec)
             cluster_children = []
             if subjects:
                 for subj in subjects.keys():
-                    if len(subjects.get(subj)) > size_limit:
+                    if subject_count_max >= len(subjects.get(subj)) >= subject_count_min:
                         cluster_children.append(
                             {"name": subj or 'NONAME',
                              "size": times (len(subjects.get(subj)), 1000)
@@ -69,5 +69,7 @@ def flare(filename, size_limit):
         "children": flare_children
     }
 
-    write_json('./GlamCodeTest.json', flare)
+    subject_size_min_str = './GlamCodeTest{}.json'.format(subject_count_min)
+    glam_size_test_filename = subject_size_min_str
+    write_json(glam_size_test_filename, flare)
     return flare

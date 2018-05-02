@@ -1,14 +1,17 @@
 from sickle import Sickle, oaiexceptions
-from flask_restplus import abort
+from flask_restplus import abort, reqparse
+
 
 repository_url = 'http://archives.laguardia.edu/oai2'
 #repository_url = 'http://commons.clarku.edu/do/oai/'
 #repository_url = 'http://academicworks.cuny.edu/do/oai/'
 
-sickle = Sickle(repository_url)
 
 
-def get_record_metadata(identifier):
+
+
+def get_record_metadata(repository_url, identifier):
+    sickle = Sickle(repository_url)
     rec = sickle.GetRecord(
         identifier=identifier,
         metadataPrefix='oai_dc'
@@ -16,7 +19,8 @@ def get_record_metadata(identifier):
     return rec.metadata
 
 
-def list_sets():
+def list_sets(repository_url):
+    sickle = Sickle(repository_url)
     setlist = []
     listsets = sickle.ListSets()
 
@@ -36,14 +40,16 @@ def list_sets():
 
     return setlist
 
-def get_identifiers_in_set(setSpec):
+def get_identifiers_in_set(repository_url, setSpec):
+    sickle = Sickle(repository_url)
     return sickle.ListIdentifiers(
         metadataPrefix='oai_dc',
         ignore_deleted=True,
         set=setSpec,
     )
 
-def list_sets_with_counts():
+def list_sets_with_counts(repository_url):
+    sickle = Sickle(repository_url)
     setlist = []
     listsets = sickle.ListSets()
 
@@ -70,11 +76,11 @@ def list_sets_with_counts():
     return setlist
 
 
-def list_identifiers(setSpec=None):
+def list_identifiers(repository_url, setSpec=None):
     keys = ['setSpec', 'setName']
     identifiers_list = []
 
-    identifiers = get_identifiers_in_set(setSpec)
+    identifiers = get_identifiers_in_set(repository_url, setSpec)
 
     try:
         while(True):
@@ -98,27 +104,27 @@ def list_identifiers(setSpec=None):
     }
     """
 
-def list_set_records(setSpec):
+def list_set_records(repository_url, setSpec):
     recs = []
     set_rec_idents = []
     try:
-        set_rec_idents = list_identifiers(setSpec)
+        set_rec_idents = list_identifiers(repository_url, setSpec)
     except oaiexceptions.NoRecordsMatch:
         pass
 
     for ident in set_rec_idents:
         ident['setSpec'] = setSpec
-        ident['dc'] = get_record_metadata(ident.get('identifier'))
+        ident['dc'] = get_record_metadata(repository_url, ident.get('identifier'))
         recs.append(
              ident
         )
     return recs
 
 
-def subject_counts(setSpec):
+def subject_counts(repository_url, setSpec):
     subjects = {}
     subject_ranks = {}
-    recs = list_set_records(setSpec)
+    recs = list_set_records(repository_url, setSpec)
     for r in recs:
         subject = r.get('subject')
         if subject:
@@ -144,4 +150,5 @@ def subject_counts(setSpec):
         'records_in_set': len(recs),
         'subject_rankings': sorted_ranks,
     }
+
 
