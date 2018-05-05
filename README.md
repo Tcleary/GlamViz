@@ -33,7 +33,7 @@ git clone https://github.com/Tcleary/GlamViz.git
 ```
 * change into the cloned directory:
 ```
-cd GlamViz/GLAM
+cd GlamViz/glamviz
 ```
 * Load virtual environment
 
