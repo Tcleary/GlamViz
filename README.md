@@ -36,20 +36,14 @@ git clone https://github.com/Tcleary/GlamViz.git
 cd GlamViz/glamviz
 ```
 * Load virtual environment
-
-On Windows:
 ```
 Virtualenv ENV
 ```
--Mac:
-```
-.\venv\bin\actovate
-```
-Run the GLAM app:
+* Run the GLAM app:
 ```
 python GLAM.py
 ```
-Load the Swagger forms for data processing:
+* Load the Swagger forms for data processing:
 http://127.0.0.1:5000/
 
 
