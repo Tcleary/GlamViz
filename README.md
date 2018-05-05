@@ -37,11 +37,11 @@ cd GlamViz/glamviz
 ```
 * Load virtual environment
 
-Windows:
+On Windows:
 ```
-.\venv\Scripts\activate\
+Virtualenv ENV
 ```
-Mac:
+-Mac:
 ```
 .\venv\bin\actovate
 ```
