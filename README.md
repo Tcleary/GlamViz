@@ -22,13 +22,14 @@ The GLAM Project supports configuration of repository labels and urls to harvest
 
 * Python 3: https://www.python.org/downloads/
 * virtualenv: https://virtualenv.pypa.io/en/stable/installation/
+* git: https://git-scm.com/downloads
 
 
 ### Procedure
 
 * from within a directory for projects, clone the GlamViz repository:
 ```
-git clone git clone https://github.com/Tcleary/GlamViz.git
+git clone https://github.com/Tcleary/GlamViz.git
 ```
 * change into the cloned directory:
 ```
