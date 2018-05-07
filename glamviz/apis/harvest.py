@@ -138,7 +138,7 @@ class WriteAllRecords(Resource):
 
 
 @api.route('/WriteSetRecords/<string:setSpec>')
-@api.doc(False)er
+@api.doc(False)
 class WriteSetRecords(Resource):
     def get(self, setSpec):
         set_records = []

@@ -60,7 +60,13 @@ cd GlamViz
 ```
 virtualenv venv
 ```
-* install the required python libraries
+
+- Activate the virtual environment (it will say venv infront of the directory location on the command prompt, that is how you know you are in the virtual environment)
+```
+venv\Scripts\activate
+```
+
+* install the required python libraries listed in the requirements.txt file
 ```
 pip install -r requirements.txt
 ```
@@ -112,6 +118,12 @@ file that is used in tranformations.
 
 ## Show Visualization
 
-- open Treemap.html from the root of the project
-- Browse to the transformed data and load it
+- open Treemap.html within your browser
+
+```
+example:
+file:///C:/Users/Username/ProjectsDirectory/GlamViz/Treemap.html
+```
+
+- Browse to the transformed data directory, it will be the same as listed on the filepath from the transformation API output
 
