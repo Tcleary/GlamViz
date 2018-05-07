@@ -32,12 +32,12 @@ def flare(filename, subject_count_min, subject_count_max):
         dc=rec.get('dc')
         subject = dc.get('subject')
         if subject:
-            setmap = flare_data.get(spec) or {}
+            setmap = flare_data.get(spec[0]) or {}
             for subj in subject:
                 subj_recs = setmap.get(subj) or []
                 subj_recs.append(dc.get('identifier')[0])
                 setmap[subj] = subj_recs
-            flare_data[spec] = setmap
+            flare_data[spec[0]] = setmap
 
     flare_children = []
 

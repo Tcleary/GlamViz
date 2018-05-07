@@ -5,24 +5,7 @@ from flask_restplus import abort, reqparse
 from flask import current_app
 
 import glam_io
-
-repository_url = 'http://archives.laguardia.edu/oai2'
-#repository_url = 'http://commons.clarku.edu/do/oai/'
-#repository_url = 'http://academicworks.cuny.edu/do/oai/'
-
-
-def get_repository_url():
-    app = current_app
-    config_filename = os.path.join(app.instance_path, 'config', 'settings.json')
-    data = glam_io.read_json(config_filename)
-
-    repository_url = ''
-
-    if data:
-        if data.get('repository'):
-            repository_url = data.get('repository').get('url')
-
-    return repository_url
+import admin
 
 
 def get_record_metadata(repository_url, identifier):
@@ -35,7 +18,7 @@ def get_record_metadata(repository_url, identifier):
 
 
 def list_sets(repository_url=None):
-    repository_url = repository_url or get_repository_url()
+    repository_url = repository_url or admin.get_repository_url()
     sickle = Sickle(repository_url)
     setlist = []
     listsets = sickle.ListSets()
@@ -56,13 +39,14 @@ def list_sets(repository_url=None):
 
     return setlist
 
-def get_identifiers_in_set(repository_url, setSpec):
-    sickle = Sickle(repository_url)
+
+def get_identifiers_in_set(setSpec):
+    sickle = Sickle(admin.get_repository_url())
     return sickle.ListIdentifiers(
-        metadataPrefix='oai_dc',
-        ignore_deleted=True,
-        set=setSpec,
-    )
+        **{ 'metadataPrefix': 'oai_dc',
+            'set': setSpec,
+    })
+
 
 def list_sets_with_counts(repository_url):
     sickle = Sickle(repository_url)
@@ -92,11 +76,11 @@ def list_sets_with_counts(repository_url):
     return setlist
 
 
-def list_identifiers(repository_url, setSpec=None):
+def list_identifiers(setSpec=None):
     keys = ['setSpec', 'setName']
     identifiers_list = []
 
-    identifiers = get_identifiers_in_set(repository_url, setSpec)
+    identifiers = get_identifiers_in_set(admin.get_repository_url(), setSpec)
 
     try:
         while(True):
@@ -120,27 +104,48 @@ def list_identifiers(repository_url, setSpec=None):
     }
     """
 
-def list_set_records(repository_url, setSpec):
+
+def list_set_records(setSpec):
+    set_recs = []
+    sickle = Sickle(admin.get_repository_url())
+    try:
+        recs = sickle.ListRecords(metadataPrefix='oai_dc', set=setSpec)
+        for rec in recs:
+            #rec = recs.next()
+            set_recs.append({
+            "identifier": rec.header.identifier,
+            "datestamp": rec.header.datestamp,
+            "setSpec": rec.header.setSpecs,
+            "dc": rec.metadata,
+        })
+    except Exception as e:
+        pass
+    #return [rec_type, rec.metadata, rec.header.identifier, rec.header.setSpecs, rec.header.datestamp, rec.header.deleted, rec.raw]
+    return set_recs
+
+
+def list_set_records_save(setSpec):
     recs = []
     set_rec_idents = []
     try:
-        set_rec_idents = list_identifiers(repository_url, setSpec)
+        set_rec_idents = list_identifiers(admin.get_repository_url(), setSpec)
     except oaiexceptions.NoRecordsMatch:
         pass
 
     for ident in set_rec_idents:
         ident['setSpec'] = setSpec
-        ident['dc'] = get_record_metadata(repository_url, ident.get('identifier'))
+        ident['dc'] = get_record_metadata(admin.get_repository_url(), ident.get('identifier'))
         recs.append(
              ident
         )
     return recs
 
 
-def subject_counts(repository_url, setSpec):
+def subject_counts(setSpec):
     subjects = {}
     subject_ranks = {}
-    recs = list_set_records(repository_url, setSpec)
+
+    recs = list_set_records(setSpec)
     for r in recs:
         subject = r.get('subject')
         if subject:
@@ -167,4 +172,39 @@ def subject_counts(repository_url, setSpec):
         'subject_rankings': sorted_ranks,
     }
 
+def combine_all_sets_file(bundle_path=None):
 
+    bundle_path = bundle_path or 'publication_bb'
+    from os import listdir
+    from os.path import isfile, join
+    datadir = os.path.join(
+        current_app.instance_path,
+        'data',
+        'harvested',
+        admin.get_repository_label()
+    )
+
+    all_recs = {}
+    counts = {}
+    onlyfiles = [f for f in listdir(datadir) if isfile(join(datadir, f))]
+
+    for f in onlyfiles:
+        if f != 'all_sets.json':
+            filepath = os.path.join(datadir, f)
+            data = glam_io.read_json(filepath)
+            counts[f] = len(list(data))
+            for item in data:
+                identifier = item.get('identifier')
+                if all_recs.get(identifier):
+                    pass
+                else:
+                    all_recs[identifier] = item
+
+    unique_identifiers = len(all_recs.keys())
+    all_set_records = []
+    for identifier in all_recs.keys():
+        all_set_records.append(all_recs.get(identifier))
+
+    glam_io.write_json(os.path.join(datadir, 'all_sets.json'), all_set_records)
+
+    return [{'unique_identifiers': unique_identifiers}, counts ]

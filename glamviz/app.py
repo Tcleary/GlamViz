@@ -1,5 +1,5 @@
 from flask import Flask
-from flask_restplus import Api, Resource
+from flask_restplus import Api
 
 from apis.admin import api as admin_ns
 from apis.harvest import api as harvest_ns

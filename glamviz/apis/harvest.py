@@ -1,51 +1,13 @@
+import os
 from flask import request, current_app
 from flask_restplus import Namespace, Resource, reqparse, abort
+from sickle import oaiexceptions
 
 import glam_io
-import config
+import admin
 import harvester as harv
 
 api = Namespace('harvest', description='harvest data from repository')
-
-
-repository_arguments = reqparse.RequestParser()
-repository_arguments.add_argument(
-    'repository_label',
-    type=str,
-    required=True,
-    choices=tuple(config.repositories.keys()),
-    help='Choose repository'
-)
-
-repository_admin_arguments = reqparse.RequestParser()
-repository_admin_arguments.add_argument(
-    'repository_label',
-    type=str,
-    required=True,
-    help='Add repository label'
-)
-
-repository_admin_arguments.add_argument(
-    'repository_url',
-    type=str,
-    required=True,
-    help='Add repository URL'
-)
-
-
-@api.route('/Admin/Repository')
-class AdminRepository(Resource):
-
-    #@apis.expect(repository_admin_arguments)
-    def get(self):
-        return config.repositories
-        """
-        args = repository_admin_arguments.parse_args(request)
-        repository_label = args.get('repository_label')
-        repository_url = args.get('repository_url')
-        session.get('repositories')[repository_label] = repository_url
-        """
-
 
 @api.route('/ListSets')
 class ListSets(Resource):
@@ -65,6 +27,7 @@ class ListSets(Resource):
 
 
 @api.route('/ListIdentifiers')
+@api.doc(False)
 class ListIdentifiers(Resource):
     def get(self):
         idents = []
@@ -75,7 +38,20 @@ class ListIdentifiers(Resource):
         return idents
 
 
+@api.route('/CountSetIdentifiers/<string:setSpec>')
+@api.doc(False)
+class CountSetIdentifiers(Resource):
+    def get(self, setSpec):
+        idents = []
+        try:
+            idents = harv.get_identifiers_in_set(setSpec)
+        except Exception as e:
+            abort(400, e)
+        return len(list(idents))
+
+
 @api.route('/WriteListIdentifiers/<string:filename>')
+@api.doc(False)
 class WriteListIdentifiers(Resource):
     def get(self, filename):
         idents = []
@@ -89,6 +65,7 @@ class WriteListIdentifiers(Resource):
 
 
 @api.route('/ListSetRecords/<string:setSpec>')
+@api.doc(False)
 class ListSetRecords(Resource):
     def get(self, setSpec):
         set_records = []
@@ -99,62 +76,69 @@ class ListSetRecords(Resource):
         return set_records
 
 
-@api.route('/WriteAllSetRecords')
+@api.route('/WriteSetRecords/<string:setSpec>')
+@api.doc(False)
 class WriteAllSetRecords(Resource):
-    def get(self):
-        repository_arguments.add_argument(
-            'repository_label',
-            type=str,
-            required=True,
-            choices=tuple(config.repositories.keys()),
-            help='Choose repository'
-        )
-        setlist = harv.list_sets()
+    def get(self, setSpec):
+
         set_records = []
         try:
-            for s in setlist:
-                set_records = harv.list_set_records(s.get('setSpec'))
-                glam_io.write_json('.'.join((s.get('setSpec'), 'json')), set_records)
+            set_records = harv.list_set_records(setSpec)
+            datadir = '/'.join((current_app.instance_path, 'data', 'harvested', admin.get_repository_label()))
+            filename = '/'.join((datadir, ''.join((setSpec, '.json'))))
+            glam_io.write_json(filename, set_records)
         except oaiexceptions.NoRecordsMatch:
             pass
         except Exception as e:
             abort(400, e)
 
-        return setlist
+        return {
+            'setSpec': setSpec,
+            'set_record_count': len(list(set_records)),
+        }
 
 
 @api.route('/WriteAllRecords')
 class WriteAllRecords(Resource):
 
-    @api.expect(repository_arguments)
     def get(self):
-        args = repository_arguments.parse_args(request)
-        repository_label = args.get('repository_label')
-        repository_url = config.repositories.get(repository_label)
-        setlist = harv.list_sets(repository_url)
+
+        setlist = harv.list_sets(admin.get_repository_url())
         set_records = []
         all_records = []
-        datadir = '/'.join(('.', 'data', 'harvested', repository_label))
+        datadir = os.path.join(
+            current_app.instance_path,
+            'data',
+            'harvested',
+            admin.get_repository_label()
+        )
         print(datadir)
         try:
             for s in setlist:
                 setSpec = s.get('setSpec') or 'unknown'
-                set_records = harv.list_set_records(repository_url, setSpec)
-                filename = '/'.join((datadir, ''.join((setSpec,'.json'))))
-                print(filename)
-                glam_io.write_json(filename, set_records)
-                all_records.extend(set_records)
+                filepath = glam_io.clean_filepath(
+                    os.path.join(datadir, ''.join((setSpec, '.json')))
+                )
+
+                if os.path.isfile(filepath):
+                    print('Testing existence of:', filepath)
+                else:
+                    print('preparing new file:', filepath)
+                    set_records = harv.list_set_records(setSpec)
+                    glam_io.write_json(filepath, set_records)
+                #all_records.extend(set_records)
         except harv.oaiexceptions.NoRecordsMatch:
             pass
         except Exception as e:
             harv.abort(400, e)
 
-        filename = '/'.join((datadir, 'all_sets.json'))
-        glam_io.write_json(filename, all_records)
+        #filename = '/'.join((datadir, 'all_sets.json'))
+        #glam_io.write_json(filename, all_records)
         return setlist
 
 
 @api.route('/WriteSetRecords/<string:setSpec>')
+@api.doc(False)er
 class WriteSetRecords(Resource):
     def get(self, setSpec):
         set_records = []
@@ -168,6 +152,7 @@ class WriteSetRecords(Resource):
 
 
 @api.route('/SubjectCounts/<string:setSpec>')
+@api.doc(False)
 class SubjectCounts(Resource):
     def get(self, setSpec):
         result = []
@@ -179,6 +164,7 @@ class SubjectCounts(Resource):
 
 
 @api.route('/metadata/<string:identifier>')
+@api.doc(False)
 class Metadata(Resource):
     def get(self, identifier):
         try:
@@ -187,5 +173,10 @@ class Metadata(Resource):
             abort(400, e)
         return metadata
 
+
+@api.route('/WriteAllSetsFile')
+class WriteAllSetsFile(Resource):
+    def get(self):
+        return harv.combine_all_sets_file()
 
 

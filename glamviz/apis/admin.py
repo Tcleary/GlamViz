@@ -43,17 +43,31 @@ class AdminRepository(Resource):
 
         return repository
 
-    @api.response(201, 'Category successfully created.')
+    @api.response(201, 'Repository successfully registered.')
     @api.expect(repository_model)
     def post(self):
 
         repository_data = request.json
         config_filename = os.path.join(current_app.instance_path, 'config', 'settings.json')
+
         data = glam_io.read_json(config_filename)
+        repository_list = []
+
+        if data:
+            repository_list = data.get('repository_list') or []
+        else:
+            data = {}
 
         data['repository'] = repository_data
-        repository_list = data.get('repository_list') or []
-        repository_list.append(repository_data)
+        matching_labels = 0
+
+        for repo in repository_list:
+            if repo.get('label') == repository_data.get('label'):
+                matching_labels = matching_labels + 1
+
+        if matching_labels == 0:
+            repository_list.append(repository_data)
+
         data['repository_list'] = repository_list
 
         glam_io.write_json(config_filename, data)
