@@ -69,7 +69,4 @@ def flare(filename, subject_count_min, subject_count_max):
         "children": flare_children
     }
 
-    subject_size_min_str = './GlamCodeTest{}.json'.format(subject_count_min)
-    glam_size_test_filename = subject_size_min_str
-    write_json(glam_size_test_filename, flare)
     return flare
