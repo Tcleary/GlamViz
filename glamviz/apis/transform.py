@@ -20,9 +20,23 @@ transform_arguments.add_argument(
         1,
         2,
         3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        20,
+        30,
+        40,
         50,
+        60,
+        70,
+        80,
+        90,
         100,
-        500
+        500,
     ]),
     help='Choose minimum subject count'
 )
@@ -34,8 +48,24 @@ transform_arguments.add_argument(
     choices=tuple([
         1,
         2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
         10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
         100,
+        500,
         1000
     ]),
     help='Choose maximum subject count'
@@ -80,7 +110,7 @@ class FlareRecords(Resource):
 
 
         return [
-            {'filepath': filename},
+            {'filepath': transformer.unescape_filepath(filename)},
             {'data': return_data},
         ]
 

@@ -1,7 +1,9 @@
 import json
 
+import admin
 from glam_io import write_json
-
+def unescape_filepath(filepath):
+    return filepath.replace('\\\\','\\')
 
 def limit_size(data, key, lowest_value ):
     return data
@@ -17,6 +19,17 @@ def times (value, number):
     value = number * value
     return value
 
+def match_spec(spec_list):
+    repository_specs = admin.get_repository_sets()
+    matching_spec = spec_list[0]
+    for rs in repository_specs:
+        for s in spec_list:
+            if rs.get('setSpec') == s:
+                matching_spec = s
+                break
+
+    return matching_spec
+
 
 def flare(filename, subject_count_min, subject_count_max):
     try:
@@ -28,16 +41,18 @@ def flare(filename, subject_count_min, subject_count_max):
     flare_data = {}
 
     for rec in d:
-        spec=rec.get('setSpec')
+        spec_list=rec.get('setSpec')
+        spec = match_spec(spec_list)
         dc=rec.get('dc')
         subject = dc.get('subject')
+
         if subject:
-            setmap = flare_data.get(spec[0]) or {}
+            setmap = flare_data.get(spec) or {}
             for subj in subject:
                 subj_recs = setmap.get(subj) or []
                 subj_recs.append(dc.get('identifier')[0])
                 setmap[subj] = subj_recs
-            flare_data[spec[0]] = setmap
+            flare_data[spec] = setmap
 
     flare_children = []
 

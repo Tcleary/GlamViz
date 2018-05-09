@@ -103,7 +103,8 @@ class WriteAllRecords(Resource):
 
     def get(self):
 
-        setlist = harv.list_sets(admin.get_repository_url())
+        #setlist = harv.list_sets(admin.get_repository_url())
+        setlist = admin.get_repository_sets()
         set_records = []
         all_records = []
         datadir = os.path.join(

@@ -172,9 +172,8 @@ def subject_counts(setSpec):
         'subject_rankings': sorted_ranks,
     }
 
-def combine_all_sets_file(bundle_path=None):
+def combine_all_sets_file():
 
-    bundle_path = bundle_path or 'publication_bb'
     from os import listdir
     from os.path import isfile, join
     datadir = os.path.join(
@@ -187,18 +186,45 @@ def combine_all_sets_file(bundle_path=None):
     all_recs = {}
     counts = {}
     onlyfiles = [f for f in listdir(datadir) if isfile(join(datadir, f))]
+    repository_sets = admin.get_repository_sets()
+    setspecs = []
+    for s in repository_sets:
+        setspecs.append(s.get('setSpec'))
+
+    print(setspecs)
+
+    set_filepaths = []
 
     for f in onlyfiles:
-        if f != 'all_sets.json':
-            filepath = os.path.join(datadir, f)
-            data = glam_io.read_json(filepath)
-            counts[f] = len(list(data))
-            for item in data:
-                identifier = item.get('identifier')
-                if all_recs.get(identifier):
-                    pass
-                else:
-                    all_recs[identifier] = item
+        #print('f', f)
+        #print(os.path.splitext(f)[0])
+        for s in setspecs:
+            #print('s', s)
+            f_cleaned = os.path.splitext(f)[0]
+            s_cleaned = glam_io.filter_filename(s)
+            print('f_cleaned', f_cleaned)
+            print('s_cleaned', s_cleaned)
+            if s_cleaned == f_cleaned:
+                filepath = os.path.join(datadir, f)
+                print('filepath', filepath)
+                set_info = {
+                    's_cleaned': s_cleaned,
+                    'filepath': filepath,
+                }
+
+                set_filepaths.append(set_info)
+
+    for set_info in reversed(set_filepaths):
+        data = glam_io.read_json(set_info.get('filepath'))
+        counts[set_info.get('s_cleaned')] = len(list(data))
+        print(set_info.get('filepath'), len(list(data)))
+
+        for item in data:
+            identifier = item.get('identifier')
+            if all_recs.get(identifier):
+                pass
+            else:
+                all_recs[identifier] = item
 
     unique_identifiers = len(all_recs.keys())
     all_set_records = []
@@ -207,4 +233,10 @@ def combine_all_sets_file(bundle_path=None):
 
     glam_io.write_json(os.path.join(datadir, 'all_sets.json'), all_set_records)
 
-    return [{'unique_identifiers': unique_identifiers}, counts ]
+    return [
+        setspecs,
+        {
+            'unique_identifiers': unique_identifiers
+        },
+        counts
+    ]

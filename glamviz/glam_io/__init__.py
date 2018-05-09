@@ -10,12 +10,15 @@ def make_sure_path_exists(path):
         if exception.errno != errno.EEXIST:
             raise
 
+def filter_filename(basename):
+    return re.sub(r'[\\/*?:"<>|]', "_", basename)
+
 def clean_filepath(filepath):
     """substitute _ for characters not suitable in a filename"""
     dir_name = os.path.dirname(filepath)
     make_sure_path_exists(dir_name)
     basename = os.path.basename(filepath)
-    filename = re.sub(r'[\\/*?:"<>|]', "_", basename)
+    filename = filter_filename(basename)
     return os.path.join(dir_name, filename)
 
 
