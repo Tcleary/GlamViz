@@ -48,9 +48,9 @@ pip install virtualenv
 ```
 git clone https://github.com/Tcleary/GlamViz.git
 ```
-* change into the cloned directory:
+* change into the cloned directory, Ex. C:\Users\Username\Directory\GlamViz:
 ```
-cd GlamViz
+cd C:\Users\Username\Directory\GlamViz
 ```
 * Create and load virtual environment in a subdirectory, for example we created one called "venv"
 ```
@@ -76,6 +76,8 @@ Running on http:127.0.0.1:5000
 This means your enviroment is running and accessible through your local host. Leave your command prompt open and then go to this link in a web browser:
 
 http://127.0.0.1:5000/
+
+!!!Do not close the command prompt window, it is running from there!!!
 
 ## Configure OAI Repository
 
